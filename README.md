@@ -293,7 +293,8 @@ if (val[0] == '"') {
 
 ### Pro Tier – ships when pre-paid counter hits 20  
 **Launch price:** $49 → $99 regular (one-time, not annual)  
-- jet_pro + jet_str (arbitrary order, whitespace, escapes) – ≤ 395 B  
+- jet_pro – 450 B JSON swiss-army: strings, escapes, top-level arrays, 1-level nesting
+Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 examples + quarterly updates. 
 - **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
 - Lifetime licence for generated file; optional $100/yr unlimited re-gens  
 
