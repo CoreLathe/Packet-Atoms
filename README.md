@@ -302,7 +302,7 @@ if (val[0] == '"') {
 - 5 additional examples
 - **Price:** $49/yr early access, then $99/yr
 
-[Sign up for Pro early access](mailto:sales@corelathe.com)
+[Sign up for Pro early access](http://www.corelathe.com/contact)
 
 ### Month 3+ (Custom Projects)
 - Custom parser projects: $1,500 each
