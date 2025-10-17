@@ -133,7 +133,7 @@ uint8_t *val = tlv(data, sizeof(data), 0x01, &len);
 
 ### 1. Copy Header
 ```bash
-# Replace 'yourusername' with actual GitHub username after repo creation
+
 curl -O https://raw.githubusercontent.com/CoreLathe/Packet-Atoms/main/src/packet_atoms.h
 
 # Or just copy src/packet_atoms.h to your project
