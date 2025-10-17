@@ -298,7 +298,7 @@ Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 ex
 - **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
 - Lifetime licence for generated file; optional $100/yr unlimited re-gens  
 
-[Pre-order](https://www.corelathe.com/contact)
+[Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
 
 ### Custom Engagements  
 - Full MISRA-C state-machine parser, streaming, fuzz corpus, integration docs  
