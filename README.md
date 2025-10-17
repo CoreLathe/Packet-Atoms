@@ -363,6 +363,7 @@ Issues and PRs welcome for:
 
 - GitHub Issues: Bug reports and questions
 - Email: sales@corelathe.com
+- Website: http://www.corelathe.com
   
 ---
 
