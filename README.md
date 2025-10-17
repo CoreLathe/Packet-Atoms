@@ -286,30 +286,23 @@ if (val[0] == '"') {
 
 ## Roadmap
 
-### Week 0 (Free Tier - Available Now)
-- ✅ packet_atoms.h (jet_tiny, jet, tlv) - 106-164 bytes compiled
-- ✅ Torture test suite (20 vectors)
-- ✅ Real-world protocol tests (AWS IoT, Azure IoT, BME280, GPS, Modbus, weather)
-- ✅ Complete validation suite
-- ✅ ARM Cortex-M4 cross-compilation verified
-- ✅ Working examples with actual size measurements
+### Today (Free Tier – shipping now)
+- ✅ 106-164 byte JSON / TLV extractor (MIT)  
+- ✅ 20 torture tests, 10 real-world protocols, ARM-Cortex-M4 verify  
+- ✅ No malloc, `-Werror` clean, copy/paste header only  
 
-### Week 4 (Pro Tier - If Validated)
-**Build if:** 300+ stars OR 20+ email signups
+### Pro Tier – ships when pre-paid counter hits 20  
+**Launch price:** $49 → $99 regular (one-time, not annual)  
+- jet_pro + jet_str (arbitrary order, whitespace, escapes) – ≤ 395 B  
+- **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
+- Lifetime licence for generated file; optional $100/yr unlimited re-gens  
 
-- jet_pro (395 B): Arbitrary field order, whitespace
-- jet_str (280 B): Quoted strings with escapes
-- 5 additional examples
-- **Price:** $49/yr early access, then $99/yr
+[Pre-order](https://www.corelathe.com/contact)
 
-[Sign up for Pro early access](http://www.corelathe.com/contact)
-
-### Month 3+ (Custom Projects)
-- Custom parser projects: $1,500 each
-- 5-7 days after spec approval
-- Includes: parser + tests + integration guide
-
----
+### Custom Engagements  
+- Full MISRA-C state-machine parser, streaming, fuzz corpus, integration docs  
+- $1 500, 5-7 biz days after spec approval  
+- Royalty-free, unlimited product use
 
 ## Why Not JSMN/cJSON?
 
