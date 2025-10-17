@@ -134,7 +134,7 @@ uint8_t *val = tlv(data, sizeof(data), 0x01, &len);
 ### 1. Copy Header
 ```bash
 # Replace 'yourusername' with actual GitHub username after repo creation
-curl -O https://raw.githubusercontent.com/yourusername/packet-atoms/main/src/packet_atoms.h
+curl -O https://raw.githubusercontent.com/CoreLathe/Packet-Atoms/main/src/packet_atoms.h
 
 # Or just copy src/packet_atoms.h to your project
 ```
@@ -302,7 +302,7 @@ if (val[0] == '"') {
 - 5 additional examples
 - **Price:** $49/yr early access, then $99/yr
 
-[Sign up for Pro early access](mailto:early-access@packetatoms.dev)
+[Sign up for Pro early access](mailto:sales@corelathe.com)
 
 ### Month 3+ (Custom Projects)
 - Custom parser projects: $1,500 each
@@ -362,9 +362,8 @@ Issues and PRs welcome for:
 ## Support
 
 - GitHub Issues: Bug reports and questions
-- Email: support@packetatoms.dev
-- Custom projects: custom@packetatoms.dev
-
+- Email: sales@corelathe.com
+  
 ---
 
 **Built for embedded developers who control their protocols.**
