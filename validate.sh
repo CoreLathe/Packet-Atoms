@@ -122,8 +122,3 @@ if command -v valgrind &> /dev/null; then
 fi
 echo "╚════════════════════════════════════════════════════════╝"
 echo ""
-echo "Next steps:"
-echo "  1. Review README.md"
-echo "  2. Double-check LICENSE"
-echo "  3. Push to GitHub"
-echo "  4. Submit to Hacker News"
