@@ -8,7 +8,7 @@ MIT Licensed | Cross-compiled for ARM Cortex-M4 | Tested on Linux x86-64
 
 ## What It Does
 
-Extract JSON fields on resource-constrained MCUs without malloc or complex parsers.
+Extract JSON/TLV fields on resource-constrained MCUs without malloc or complex parsers.
 
 ```c
 #include "packet_atoms.h"
