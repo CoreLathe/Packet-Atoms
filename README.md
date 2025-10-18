@@ -1,6 +1,6 @@
 # Packet Atoms
 
-**106-164 byte JSON field extractor for controlled embedded formats**
+**106-164 byte JSON/TLV field extractor for controlled embedded formats**
 
 MIT Licensed | Cross-compiled for ARM Cortex-M4 | Tested on Linux x86-64
 
