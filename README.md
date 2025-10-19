@@ -62,7 +62,7 @@ jet("{\"temp\":22.5,\"hum\":65}", "temp", temp, sizeof(temp));
 - jet_pro – 450 B JSON swiss-army: strings, escapes, top-level arrays, 1-level nesting
 Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 examples + quarterly updates. 
 - **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
-- Lifetime licence for generated file; optional $100/yr unlimited re-gens  
+- Lifetime licence for generated file; optional $100/yr priority support and 5 custom extractors.  
 
 [Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
 
