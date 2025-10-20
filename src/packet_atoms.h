@@ -1,4 +1,4 @@
-// packet_atoms.h - MIT License - packetatoms.dev
+// packet_atoms.h - MIT License - CoreLathe.com
 // Micro-parser for controlled embedded JSON/TLV formats
 // Version: 1.0.0
 
