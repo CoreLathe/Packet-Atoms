@@ -59,8 +59,10 @@ jet("{\"temp\":22.5,\"hum\":65}", "temp", temp, sizeof(temp));
 
 ### Pro tier – beta available  
 450-byte JSON extractor with strings, escapes, top-level arrays, 1-level nesting.  
-Still 7× smaller than cJSON.  
+Still 8× smaller than cJSON.  
 $99 lifetime licence – pre-order:
+
+[Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
 
 ---
 
@@ -296,13 +298,6 @@ if (val[0] == '"') {
 - ✅ 20 torture tests, 10 real-world protocols, ARM-Cortex-M4 verify  
 - ✅ No malloc, `-Werror` clean, copy/paste header only  
 
-### Pro Tier – ships when pre-paid counter hits 20  
-**Launch price:** $49 → $99 regular (one-time, not annual)  
-- jet_pro – 450 B JSON swiss-army: strings, escapes, top-level arrays, 1-level nesting
-Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 examples + quarterly updates. 
-- **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
-- Lifetime licence for generated file; optional $100/yr unlimited re-gens  
-
 ### Custom Engagements  
 - Full MISRA-C state-machine parser, streaming, fuzz corpus, integration docs  
 - $1 500, 5-7 biz days after spec approval  
@@ -330,7 +325,7 @@ char temp[16];
 jet(json, "temp", temp, sizeof(temp));
 ```
 
-**Size advantage:** 7.5x smaller than JSMN, 30x smaller than cJSON
+**Size advantage:** 8x smaller than JSMN, 30x smaller than cJSON
 
 ---
 
