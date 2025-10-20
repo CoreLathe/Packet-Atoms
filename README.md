@@ -57,14 +57,10 @@ jet("{\"temp\":22.5,\"hum\":65}", "temp", temp, sizeof(temp));
 **Use when:** You control message format (sensor ↔ cloud, custom protocols)  
 **Don't use:** Parsing third-party APIs with arbitrary structure
 
-### Pro Tier – ships when pre-paid counter hits 20  
-**Launch price:** $49 → $99 regular (one-time, not annual)  
-- jet_pro – 450 B JSON swiss-army: strings, escapes, top-level arrays, 1-level nesting
-Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 examples + quarterly updates. 
-- **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
-- Lifetime licence for generated file; optional $100/yr priority support and 5 custom extractors.  
-
-[Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
+### Pro tier – beta available  
+450-byte JSON extractor with strings, escapes, top-level arrays, 1-level nesting.  
+Still 7× smaller than cJSON.  
+$99 lifetime licence – pre-order:
 
 ---
 
@@ -306,8 +302,6 @@ if (val[0] == '"') {
 Handles 95% of IoT payloads; still 7× smaller than cJSON. $99/yr includes 20 examples + quarterly updates. 
 - **Your message, your fields:** paste payload → receive compile-tested extractor + `.map` in < 24 h  
 - Lifetime licence for generated file; optional $100/yr unlimited re-gens  
-
-[Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
 
 ### Custom Engagements  
 - Full MISRA-C state-machine parser, streaming, fuzz corpus, integration docs  
