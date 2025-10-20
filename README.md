@@ -1,4 +1,4 @@
-# Packet Atoms - Tiny JSON Extractor for Embedded
+# Packet Atoms – 106-byte JSON extractor for embedded systems
 
 **106-164 byte JSON/TLV field extractor for controlled embedded formats**
 
