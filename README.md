@@ -57,12 +57,21 @@ jet("{\"temp\":22.5,\"hum\":65}", "temp", temp, sizeof(temp));
 **Use when:** You control message format (sensor ↔ cloud, custom protocols)  
 **Don't use:** Parsing third-party APIs with arbitrary structure
 
-### Pro tier – beta available  
-450-byte JSON extractor with strings, escapes, top-level arrays, 1-level nesting.  
-Still 8× smaller than cJSON.  
-$99 lifetime licence – pre-order:
+### Pro tier – now available
+800-byte JSON extractor with strings, nesting, arrays, type detection.
+Same size as JSMN, 15× simpler API.
+$99 lifetime license (includes 1 year support):
 
-[Pre-order](https://corelathe.gumroad.com/l/packet-atoms)
+**Features:**
+- ✅ String extraction with escape handling (`\"` `\\` `\n` `\t`)
+- ✅ Dot-path nesting: `"state.reported.temperature"`
+- ✅ Array indexing: `"readings[0]"`
+- ✅ Type detection (STRING, NUMBER, BOOL, NULL)
+- ✅ Boolean normalization (true→"1", false→"0")
+- ✅ Substring collision fix
+- ✅ Backward compatible with free tier
+
+[Purchase](https://corelathe.gumroad.com/l/packet-atoms-pro)
 
 ---
 
