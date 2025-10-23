@@ -5,7 +5,7 @@
 MIT Licensed | Cross-compiled for ARM Cortex-M4 | Tested on Linux x86-64
 
 ---
-
+[Contact for custom engagements](https://corelathe.com/contact.html)
 ## What It Does
 
 Extract JSON/TLV fields on resource-constrained MCUs without malloc or complex parsers.
