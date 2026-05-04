@@ -57,22 +57,6 @@ jet("{\"temp\":22.5,\"hum\":65}", "temp", temp, sizeof(temp));
 **Use when:** You control message format (sensor ↔ cloud, custom protocols)  
 **Don't use:** Parsing third-party APIs with arbitrary structure
 
-### Pro tier – now available
-800-byte JSON extractor with strings, nesting, arrays, type detection.
-Same size as JSMN, 15× simpler API.
-$99 lifetime license (includes 1 year support):
-
-**Features:**
-- ✅ String extraction with escape handling (`\"` `\\` `\n` `\t`)
-- ✅ Dot-path nesting: `"state.reported.temperature"`
-- ✅ Array indexing: `"readings[0]"`
-- ✅ Type detection (STRING, NUMBER, BOOL, NULL)
-- ✅ Boolean normalization (true→"1", false→"0")
-- ✅ Substring collision fix
-- ✅ Backward compatible with free tier
-
-[Purchase](https://corelathe.gumroad.com/l/packet-atoms-pro)
-
 ---
 
 ## API Reference
@@ -298,19 +282,6 @@ if (val[0] == '"') {
 }
 ```
 
----
-
-## Roadmap
-
-### Today (Free Tier – shipping now)
-- ✅ 106-164 byte JSON / TLV extractor (MIT)  
-- ✅ 20 torture tests, 10 real-world protocols, ARM-Cortex-M4 verify  
-- ✅ No malloc, `-Werror` clean, copy/paste header only  
-
-### Custom Engagements  
-- Full MISRA-C state-machine parser, streaming, fuzz corpus, integration docs  
-- $1 500, 5-7 biz days after spec approval  
-- Royalty-free, unlimited product use
 
 ## Why Not JSMN/cJSON?
 
